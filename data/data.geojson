@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Central Park",
+        "type": "park",
+        "area": 3.41,
+        "visitors_per_year": 42000000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9654, 40.7829]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Times Square",
+        "type": "landmark",
+        "area": 0.1,
+        "visitors_per_year": 50000000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9855, 40.7580]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Manhattan District",
+        "type": "area",
+        "population": 1600000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-74.0060, 40.7128],
+          [-73.9950, 40.7280],
+          [-73.9840, 40.7330],
+          [-73.9770, 40.7580],
+          [-73.9890, 40.7680],
+          [-74.0060, 40.7128]
+        ]]
+      }
+    }
+  ]
+} 
